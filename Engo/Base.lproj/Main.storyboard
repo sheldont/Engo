@@ -26,7 +26,7 @@
                                             <constraint firstAttribute="height" constant="40" id="cCQ-42-sgi"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
-                                        <color key="textColor" red="1" green="0.40000000000000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GhS-U7-pe3">
@@ -267,7 +267,7 @@
                                     <constraint firstAttribute="height" constant="40" id="fP1-Gs-zfA"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
-                                <color key="textColor" red="1" green="0.40000000000000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U0G-Ra-ekZ">
@@ -276,8 +276,8 @@
                                     <constraint firstAttribute="height" constant="40" id="SfF-gQ-5DS"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="13"/>
-                                <state key="normal" title="BACK">
-                                    <color key="titleColor" red="0.20000000000000001" green="0.59999999999999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="&lt;">
+                                    <color key="titleColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9z-HA-TUy">
@@ -350,10 +350,11 @@
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="kzM-Gf-Sss" secondAttribute="centerX" id="1XQ-kp-z0W"/>
                             <constraint firstItem="kzM-Gf-Sss" firstAttribute="trailing" secondItem="JNN-NM-QaB" secondAttribute="trailingMargin" id="314-62-5KD"/>
+                            <constraint firstItem="xxF-aW-bte" firstAttribute="top" secondItem="zWp-X2-n4O" secondAttribute="bottom" id="69X-zT-fGZ"/>
                             <constraint firstAttribute="centerX" secondItem="x9z-HA-TUy" secondAttribute="centerX" id="8n3-RZ-n9Y"/>
+                            <constraint firstItem="U0G-Ra-ekZ" firstAttribute="top" secondItem="zWp-X2-n4O" secondAttribute="bottom" id="9Gk-ow-dCH"/>
                             <constraint firstAttribute="centerX" secondItem="nNi-hh-Eqx" secondAttribute="centerX" id="DZm-1S-WsZ"/>
                             <constraint firstItem="DyU-he-Cib" firstAttribute="trailing" secondItem="JNN-NM-QaB" secondAttribute="trailingMargin" id="I0G-Nt-ZBk"/>
-                            <constraint firstItem="xxF-aW-bte" firstAttribute="top" secondItem="zWp-X2-n4O" secondAttribute="bottom" id="LuG-Jx-CsM"/>
                             <constraint firstAttribute="centerX" secondItem="xxF-aW-bte" secondAttribute="centerX" id="QZr-se-Cyw"/>
                             <constraint firstAttribute="centerX" secondItem="JVV-ek-rT0" secondAttribute="centerX" id="SCC-q5-bzX"/>
                             <constraint firstItem="nNi-hh-Eqx" firstAttribute="leading" secondItem="JNN-NM-QaB" secondAttribute="leadingMargin" id="SY5-9q-5RS"/>
@@ -361,7 +362,6 @@
                             <constraint firstAttribute="centerX" secondItem="6vN-7Q-ZRP" secondAttribute="centerX" id="V1G-Pf-afY"/>
                             <constraint firstItem="U0G-Ra-ekZ" firstAttribute="leading" secondItem="JNN-NM-QaB" secondAttribute="leadingMargin" id="Vpl-eB-7ib"/>
                             <constraint firstItem="nNi-hh-Eqx" firstAttribute="trailing" secondItem="JNN-NM-QaB" secondAttribute="trailingMargin" id="X4M-3o-Etc"/>
-                            <constraint firstItem="U0G-Ra-ekZ" firstAttribute="top" secondItem="zWp-X2-n4O" secondAttribute="bottom" id="bDN-gh-Leu"/>
                             <constraint firstItem="6vN-7Q-ZRP" firstAttribute="leading" secondItem="JNN-NM-QaB" secondAttribute="leadingMargin" id="cGn-U9-rEO"/>
                             <constraint firstItem="6vN-7Q-ZRP" firstAttribute="trailing" secondItem="JNN-NM-QaB" secondAttribute="trailingMargin" id="dtW-SY-eBd"/>
                             <constraint firstItem="x9z-HA-TUy" firstAttribute="trailing" secondItem="JNN-NM-QaB" secondAttribute="trailingMargin" id="gLA-7k-ISq"/>
@@ -427,23 +427,23 @@
                                     <constraint firstAttribute="width" constant="170" id="UJO-jr-plv"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="30"/>
-                                <color key="textColor" red="1" green="0.40000000000000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.23137254900000001" green="0.1215686275" blue="0.33725490200000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="4xo-5J-Yvf" firstAttribute="top" secondItem="xpI-LO-zr3" secondAttribute="bottom" constant="20" id="6As-nC-wP8"/>
                             <constraint firstAttribute="centerY" secondItem="QfF-N1-T1t" secondAttribute="centerY" id="7dA-En-mk3"/>
                             <constraint firstItem="XYi-fe-8zt" firstAttribute="width" secondItem="xpI-LO-zr3" secondAttribute="width" id="A6l-aI-RxB"/>
                             <constraint firstItem="XYi-fe-8zt" firstAttribute="trailing" secondItem="qPL-Ji-Xxl" secondAttribute="trailingMargin" id="IhX-Rx-mTh"/>
+                            <constraint firstItem="4xo-5J-Yvf" firstAttribute="top" secondItem="xpI-LO-zr3" secondAttribute="bottom" constant="20" id="O9w-x4-tXL"/>
                             <constraint firstItem="XYi-fe-8zt" firstAttribute="top" secondItem="xpI-LO-zr3" secondAttribute="top" id="OFa-EI-uzL"/>
-                            <constraint firstItem="4xo-5J-Yvf" firstAttribute="top" secondItem="XYi-fe-8zt" secondAttribute="bottom" constant="20" id="cRC-7V-BlO"/>
                             <constraint firstItem="XYi-fe-8zt" firstAttribute="height" secondItem="xpI-LO-zr3" secondAttribute="height" id="d43-Bo-pjf"/>
                             <constraint firstItem="XYi-fe-8zt" firstAttribute="bottom" secondItem="xpI-LO-zr3" secondAttribute="bottom" id="ggN-gI-ZKU"/>
                             <constraint firstItem="xpI-LO-zr3" firstAttribute="leading" secondItem="qPL-Ji-Xxl" secondAttribute="leadingMargin" id="iM4-BK-lLs"/>
                             <constraint firstItem="XYi-fe-8zt" firstAttribute="leading" secondItem="xpI-LO-zr3" secondAttribute="trailing" constant="8" id="mNo-u6-HV9"/>
                             <constraint firstAttribute="centerX" secondItem="QfF-N1-T1t" secondAttribute="centerX" id="rHd-z1-9mw"/>
+                            <constraint firstItem="4xo-5J-Yvf" firstAttribute="top" secondItem="XYi-fe-8zt" secondAttribute="bottom" constant="20" id="vHA-Mk-lGQ"/>
                         </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>

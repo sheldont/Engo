@@ -15,6 +15,7 @@
 		03EC8E2E1B45D77E00E9319A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03EC8E2D1B45D77E00E9319A /* Images.xcassets */; };
 		03EC8E311B45D77E00E9319A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03EC8E2F1B45D77E00E9319A /* LaunchScreen.xib */; };
 		03EC8E3D1B45D77E00E9319A /* EngoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EC8E3C1B45D77E00E9319A /* EngoTests.m */; };
+		03EC8E471B4AE9E100E9319A /* landingPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03EC8E461B4AE9E100E9319A /* landingPage.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		03EC8E361B45D77E00E9319A /* EngoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EngoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03EC8E3B1B45D77E00E9319A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03EC8E3C1B45D77E00E9319A /* EngoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EngoTests.m; sourceTree = "<group>"; };
+		03EC8E461B4AE9E100E9319A /* landingPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = landingPage.xib; path = Views/initial/landingPage.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,13 +85,12 @@
 		03EC8E1C1B45D77E00E9319A /* Engo */ = {
 			isa = PBXGroup;
 			children = (
+				03EC8E481B4AEA2400E9319A /* Views */,
 				03EC8E211B45D77E00E9319A /* AppDelegate.h */,
 				03EC8E221B45D77E00E9319A /* AppDelegate.m */,
 				03EC8E271B45D77E00E9319A /* ViewController.h */,
 				03EC8E281B45D77E00E9319A /* ViewController.m */,
-				03EC8E2A1B45D77E00E9319A /* Main.storyboard */,
 				03EC8E2D1B45D77E00E9319A /* Images.xcassets */,
-				03EC8E2F1B45D77E00E9319A /* LaunchScreen.xib */,
 				03EC8E241B45D77E00E9319A /* Engo.xcdatamodeld */,
 				03EC8E1D1B45D77E00E9319A /* Supporting Files */,
 			);
@@ -120,6 +121,16 @@
 				03EC8E3B1B45D77E00E9319A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03EC8E481B4AEA2400E9319A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				03EC8E2A1B45D77E00E9319A /* Main.storyboard */,
+				03EC8E2F1B45D77E00E9319A /* LaunchScreen.xib */,
+				03EC8E461B4AE9E100E9319A /* landingPage.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +215,7 @@
 			files = (
 				03EC8E2C1B45D77E00E9319A /* Main.storyboard in Resources */,
 				03EC8E311B45D77E00E9319A /* LaunchScreen.xib in Resources */,
+				03EC8E471B4AE9E100E9319A /* landingPage.xib in Resources */,
 				03EC8E2E1B45D77E00E9319A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +432,7 @@
 				03EC8E421B45D77E00E9319A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03EC8E431B45D77E00E9319A /* Build configuration list for PBXNativeTarget "EngoTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +441,7 @@
 				03EC8E451B45D77E00E9319A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
