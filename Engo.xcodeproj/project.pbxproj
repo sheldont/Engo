@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		036807AB1B4AF11100AADDCE /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036807A91B4AF11100AADDCE /* LogInViewController.m */; };
+		036807AC1B4AF11100AADDCE /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036807AA1B4AF11100AADDCE /* LogInViewController.xib */; };
+		036807C91B4AF2EA00AADDCE /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036807C71B4AF2EA00AADDCE /* SignUpViewController.m */; };
+		036807CA1B4AF2EA00AADDCE /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036807C81B4AF2EA00AADDCE /* SignUpViewController.xib */; };
+		036807D51B4AF40D00AADDCE /* LandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036807D31B4AF40D00AADDCE /* LandingViewController.m */; };
+		036807D61B4AF40D00AADDCE /* LandingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036807D41B4AF40D00AADDCE /* LandingViewController.xib */; };
+		036807DD1B4AF57C00AADDCE /* BallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036807DB1B4AF57C00AADDCE /* BallViewController.m */; };
+		036807DE1B4AF57C00AADDCE /* BallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036807DC1B4AF57C00AADDCE /* BallViewController.xib */; };
+		036807E31B4AF5B300AADDCE /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036807E11B4AF5B300AADDCE /* SettingsViewController.m */; };
+		036807E41B4AF5B300AADDCE /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036807E21B4AF5B300AADDCE /* SettingsViewController.xib */; };
+		036807E91B4AF5F500AADDCE /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036807E71B4AF5F500AADDCE /* EventsViewController.m */; };
+		036807EA1B4AF5F500AADDCE /* EventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036807E81B4AF5F500AADDCE /* EventsViewController.xib */; };
 		03EC8E201B45D77E00E9319A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EC8E1F1B45D77E00E9319A /* main.m */; };
 		03EC8E231B45D77E00E9319A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EC8E221B45D77E00E9319A /* AppDelegate.m */; };
 		03EC8E261B45D77E00E9319A /* Engo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03EC8E241B45D77E00E9319A /* Engo.xcdatamodeld */; };
-		03EC8E291B45D77E00E9319A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EC8E281B45D77E00E9319A /* ViewController.m */; };
 		03EC8E2C1B45D77E00E9319A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03EC8E2A1B45D77E00E9319A /* Main.storyboard */; };
 		03EC8E2E1B45D77E00E9319A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03EC8E2D1B45D77E00E9319A /* Images.xcassets */; };
-		03EC8E311B45D77E00E9319A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03EC8E2F1B45D77E00E9319A /* LaunchScreen.xib */; };
 		03EC8E3D1B45D77E00E9319A /* EngoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EC8E3C1B45D77E00E9319A /* EngoTests.m */; };
-		03EC8E471B4AE9E100E9319A /* landingPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03EC8E461B4AE9E100E9319A /* landingPage.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,21 +38,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		036807A81B4AF11100AADDCE /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogInViewController.h; path = Initial/LogIn/LogInViewController.h; sourceTree = "<group>"; };
+		036807A91B4AF11100AADDCE /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogInViewController.m; path = Initial/LogIn/LogInViewController.m; sourceTree = "<group>"; };
+		036807AA1B4AF11100AADDCE /* LogInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LogInViewController.xib; path = Initial/LogIn/LogInViewController.xib; sourceTree = "<group>"; };
+		036807C61B4AF2EA00AADDCE /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpViewController.h; path = Initial/SignUp/SignUpViewController.h; sourceTree = "<group>"; };
+		036807C71B4AF2EA00AADDCE /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpViewController.m; path = Initial/SignUp/SignUpViewController.m; sourceTree = "<group>"; };
+		036807C81B4AF2EA00AADDCE /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SignUpViewController.xib; path = Initial/SignUp/SignUpViewController.xib; sourceTree = "<group>"; };
+		036807D21B4AF40D00AADDCE /* LandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LandingViewController.h; path = Initial/Landing/LandingViewController.h; sourceTree = "<group>"; };
+		036807D31B4AF40D00AADDCE /* LandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LandingViewController.m; path = Initial/Landing/LandingViewController.m; sourceTree = "<group>"; };
+		036807D41B4AF40D00AADDCE /* LandingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LandingViewController.xib; path = Initial/Landing/LandingViewController.xib; sourceTree = "<group>"; };
+		036807DA1B4AF57C00AADDCE /* BallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BallViewController.h; path = Main/Ball/BallViewController.h; sourceTree = "<group>"; };
+		036807DB1B4AF57C00AADDCE /* BallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BallViewController.m; path = Main/Ball/BallViewController.m; sourceTree = "<group>"; };
+		036807DC1B4AF57C00AADDCE /* BallViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BallViewController.xib; path = Main/Ball/BallViewController.xib; sourceTree = "<group>"; };
+		036807E01B4AF5B300AADDCE /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = Main/Settings/SettingsViewController.h; sourceTree = "<group>"; };
+		036807E11B4AF5B300AADDCE /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = Main/Settings/SettingsViewController.m; sourceTree = "<group>"; };
+		036807E21B4AF5B300AADDCE /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = Main/Settings/SettingsViewController.xib; sourceTree = "<group>"; };
+		036807E61B4AF5F500AADDCE /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventsViewController.h; path = Main/Events/EventsViewController.h; sourceTree = "<group>"; };
+		036807E71B4AF5F500AADDCE /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventsViewController.m; path = Main/Events/EventsViewController.m; sourceTree = "<group>"; };
+		036807E81B4AF5F500AADDCE /* EventsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EventsViewController.xib; path = Main/Events/EventsViewController.xib; sourceTree = "<group>"; };
 		03EC8E1A1B45D77E00E9319A /* Engo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Engo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03EC8E1E1B45D77E00E9319A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03EC8E1F1B45D77E00E9319A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03EC8E211B45D77E00E9319A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03EC8E221B45D77E00E9319A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		03EC8E251B45D77E00E9319A /* Engo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Engo.xcdatamodel; sourceTree = "<group>"; };
-		03EC8E271B45D77E00E9319A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		03EC8E281B45D77E00E9319A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		03EC8E2B1B45D77E00E9319A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03EC8E2D1B45D77E00E9319A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		03EC8E301B45D77E00E9319A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		03EC8E361B45D77E00E9319A /* EngoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EngoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03EC8E3B1B45D77E00E9319A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03EC8E3C1B45D77E00E9319A /* EngoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EngoTests.m; sourceTree = "<group>"; };
-		03EC8E461B4AE9E100E9319A /* landingPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = landingPage.xib; path = Views/initial/landingPage.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +87,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		036807AD1B4AF11800AADDCE /* Log In */ = {
+			isa = PBXGroup;
+			children = (
+				036807A81B4AF11100AADDCE /* LogInViewController.h */,
+				036807A91B4AF11100AADDCE /* LogInViewController.m */,
+				036807AA1B4AF11100AADDCE /* LogInViewController.xib */,
+			);
+			name = "Log In";
+			sourceTree = "<group>";
+		};
+		036807CB1B4AF2EF00AADDCE /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				036807C61B4AF2EA00AADDCE /* SignUpViewController.h */,
+				036807C71B4AF2EA00AADDCE /* SignUpViewController.m */,
+				036807C81B4AF2EA00AADDCE /* SignUpViewController.xib */,
+			);
+			name = "Sign Up";
+			sourceTree = "<group>";
+		};
+		036807D11B4AF36700AADDCE /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				036807E61B4AF5F500AADDCE /* EventsViewController.h */,
+				036807E71B4AF5F500AADDCE /* EventsViewController.m */,
+				036807E81B4AF5F500AADDCE /* EventsViewController.xib */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		036807D71B4AF41100AADDCE /* Landing */ = {
+			isa = PBXGroup;
+			children = (
+				036807D21B4AF40D00AADDCE /* LandingViewController.h */,
+				036807D31B4AF40D00AADDCE /* LandingViewController.m */,
+				036807D41B4AF40D00AADDCE /* LandingViewController.xib */,
+			);
+			name = Landing;
+			sourceTree = "<group>";
+		};
+		036807D81B4AF41B00AADDCE /* Initial Pages */ = {
+			isa = PBXGroup;
+			children = (
+				036807D71B4AF41100AADDCE /* Landing */,
+				036807CB1B4AF2EF00AADDCE /* Sign Up */,
+				036807AD1B4AF11800AADDCE /* Log In */,
+			);
+			name = "Initial Pages";
+			sourceTree = "<group>";
+		};
+		036807D91B4AF42F00AADDCE /* Main Pages */ = {
+			isa = PBXGroup;
+			children = (
+				036807D11B4AF36700AADDCE /* Events */,
+				036807DF1B4AF58700AADDCE /* Ball */,
+				036807E51B4AF5B800AADDCE /* Settings */,
+			);
+			name = "Main Pages";
+			sourceTree = "<group>";
+		};
+		036807DF1B4AF58700AADDCE /* Ball */ = {
+			isa = PBXGroup;
+			children = (
+				036807DA1B4AF57C00AADDCE /* BallViewController.h */,
+				036807DB1B4AF57C00AADDCE /* BallViewController.m */,
+				036807DC1B4AF57C00AADDCE /* BallViewController.xib */,
+			);
+			name = Ball;
+			sourceTree = "<group>";
+		};
+		036807E51B4AF5B800AADDCE /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				036807E01B4AF5B300AADDCE /* SettingsViewController.h */,
+				036807E11B4AF5B300AADDCE /* SettingsViewController.m */,
+				036807E21B4AF5B300AADDCE /* SettingsViewController.xib */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
 		03EC8E111B45D77D00E9319A = {
 			isa = PBXGroup;
 			children = (
@@ -85,11 +188,11 @@
 		03EC8E1C1B45D77E00E9319A /* Engo */ = {
 			isa = PBXGroup;
 			children = (
-				03EC8E481B4AEA2400E9319A /* Views */,
+				03EC8E2A1B45D77E00E9319A /* Main.storyboard */,
 				03EC8E211B45D77E00E9319A /* AppDelegate.h */,
 				03EC8E221B45D77E00E9319A /* AppDelegate.m */,
-				03EC8E271B45D77E00E9319A /* ViewController.h */,
-				03EC8E281B45D77E00E9319A /* ViewController.m */,
+				036807D81B4AF41B00AADDCE /* Initial Pages */,
+				036807D91B4AF42F00AADDCE /* Main Pages */,
 				03EC8E2D1B45D77E00E9319A /* Images.xcassets */,
 				03EC8E241B45D77E00E9319A /* Engo.xcdatamodeld */,
 				03EC8E1D1B45D77E00E9319A /* Supporting Files */,
@@ -121,16 +224,6 @@
 				03EC8E3B1B45D77E00E9319A /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		03EC8E481B4AEA2400E9319A /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				03EC8E2A1B45D77E00E9319A /* Main.storyboard */,
-				03EC8E2F1B45D77E00E9319A /* LaunchScreen.xib */,
-				03EC8E461B4AE9E100E9319A /* landingPage.xib */,
-			);
-			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,9 +306,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				036807D61B4AF40D00AADDCE /* LandingViewController.xib in Resources */,
+				036807AC1B4AF11100AADDCE /* LogInViewController.xib in Resources */,
+				036807E41B4AF5B300AADDCE /* SettingsViewController.xib in Resources */,
+				036807EA1B4AF5F500AADDCE /* EventsViewController.xib in Resources */,
 				03EC8E2C1B45D77E00E9319A /* Main.storyboard in Resources */,
-				03EC8E311B45D77E00E9319A /* LaunchScreen.xib in Resources */,
-				03EC8E471B4AE9E100E9319A /* landingPage.xib in Resources */,
+				036807CA1B4AF2EA00AADDCE /* SignUpViewController.xib in Resources */,
+				036807DE1B4AF57C00AADDCE /* BallViewController.xib in Resources */,
 				03EC8E2E1B45D77E00E9319A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,8 +332,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				03EC8E231B45D77E00E9319A /* AppDelegate.m in Sources */,
+				036807DD1B4AF57C00AADDCE /* BallViewController.m in Sources */,
+				036807D51B4AF40D00AADDCE /* LandingViewController.m in Sources */,
+				036807E31B4AF5B300AADDCE /* SettingsViewController.m in Sources */,
+				036807C91B4AF2EA00AADDCE /* SignUpViewController.m in Sources */,
 				03EC8E201B45D77E00E9319A /* main.m in Sources */,
-				03EC8E291B45D77E00E9319A /* ViewController.m in Sources */,
+				036807AB1B4AF11100AADDCE /* LogInViewController.m in Sources */,
+				036807E91B4AF5F500AADDCE /* EventsViewController.m in Sources */,
 				03EC8E261B45D77E00E9319A /* Engo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,14 +368,6 @@
 				03EC8E2B1B45D77E00E9319A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		03EC8E2F1B45D77E00E9319A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03EC8E301B45D77E00E9319A /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
